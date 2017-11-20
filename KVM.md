@@ -1,3 +1,4 @@
+**#1. Khái quát KVM** 
 -	KVM là giải pháp ảo hóa cho hệ thống linux trên nền tảng phần cứng x86
 -	Chính xác thì KVM là một module của kernel linux hỗ trợ cơ chế mapping các chỉ dẫn xuất phát từ cpu ảo lên cpu thật
 -	Thường thì các hypervisor khác (type 2) thường sử dụng các translator để thực hiệc cơ chế mapping này. Tuy nhiên hiệu suất không thực sự cao
