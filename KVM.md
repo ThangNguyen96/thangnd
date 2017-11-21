@@ -34,14 +34,15 @@ Về bản chất thì KVM không hẳn là một hypervisor giả lập phần 
 </div>
 <h2><a name="qemu">3. KVM - QEMU</a></h2>
 <div>
-KVM thường đi liền với QEMU. Về cơ bản, QEMU là một hypervisor hoàn chỉnh (type 2) có thể mô phỏng phần cứng, thông thường các hypervisor sử dụng 1 <b>translator</b> để mapping các chỉ dẫn từ vCPU đến CPU vật lý (gọi là <b>TCG - Tyny Core Generator</b>) tuy nhiên hiệu suất thường không cao. Tận dụng tính năng của KVM, KVm đóng vai trò như 1 <b>accelerator</b> (thay thế cho TCG).
+KVM thường đi liền với QEMU. Về cơ bản, QEMU là một hypervisor hoàn chỉnh (type 2) có thể mô phỏng phần cứng, thông thường các hypervisor sử dụng một <b>translator</b> để mapping các chỉ dẫn từ vCPU đến CPU vật lý gọi là <b>TCG - Tyny Core Generator</b> tuy nhiên hiệu suất thường không cao. Tận dụng tính năng của KVM, KVm đóng vai trò như 1 <b>accelerator</b> thay thế cho TCG.
 </div>
 <h2><b><a name="tinhnang">4. Tính năng</a></b></h2>
 <ul>
-<li><h2><b><a name="secu">4.1 Security</a></b></h2>
+<li><h3><b><a name="secu">4.1. Security</a></b></h3>
 <div>
+  
+<img src="http://www.ibm.com/developerworks/cloud/library/cl-hypervisorcompare-kvm/figure6.gif"/>
 
-<br>
 
 </div>
 </li>
